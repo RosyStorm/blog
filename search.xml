@@ -23,6 +23,22 @@
       </tags>
   </entry>
   <entry>
+    <title>软件开发杂记</title>
+    <url>/blog/2024/06/01/dev-notes/</url>
+    <content><![CDATA[<p>记录开发中的经验。</p>
+<h2 id="Git-工作流"><a href="#Git-工作流" class="headerlink" title="Git 工作流"></a>Git 工作流</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b feature</span><br><span class="line">git commit -m <span class="string">&quot;feat: ...&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>（示例内容）</p>
+]]></content>
+      <categories>
+        <category>软件开发</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据可视化技巧</title>
     <url>/blog/2024/04/05/data-visualization/</url>
     <content><![CDATA[<p>介绍 ggplot2 绘图技巧。</p>
@@ -38,22 +54,6 @@
         <tag>R</tag>
         <tag>ggplot2</tag>
         <tag>可视化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软件开发杂记</title>
-    <url>/blog/2024/06/01/dev-notes/</url>
-    <content><![CDATA[<p>记录开发中的经验。</p>
-<h2 id="Git-工作流"><a href="#Git-工作流" class="headerlink" title="Git 工作流"></a>Git 工作流</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b feature</span><br><span class="line">git commit -m <span class="string">&quot;feat: ...&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>（示例内容）</p>
-]]></content>
-      <categories>
-        <category>软件开发</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Git</tag>
       </tags>
   </entry>
   <entry>

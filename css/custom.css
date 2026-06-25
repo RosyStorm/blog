@@ -24,15 +24,31 @@
   background-attachment: fixed;
 }
 
-/* 卡片半透明，露出背景人物 */
+/* 关键修复：主内容容器必须透明，否则默认 --global-bg:#fff 白底会盖住 #web_bg */
+body,
+#content,
+.layout,
+#footer,
+#archive,
+#tag-page,
+#category-page,
+#tag,
+#category,
+.article-container {
+  background: transparent !important;
+}
+
+/* 卡片半透明：文字可读的同时透出背景人物 */
 #recent-posts .recent-post-item,
 #aside-content .card-widget {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(2px);
 }
 [data-theme="dark"] #recent-posts .recent-post-item,
 [data-theme="dark"] #aside-content .card-widget {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8) !important;
 }
+
 #page-header {
   background: transparent !important;
 }
