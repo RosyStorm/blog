@@ -212,11 +212,11 @@ comments:
   card_post_count: false
 
 # ---------- Giscus ----------
-# repo_id 已填（仓库 node_id）；category_id 需在 giscus.app 选定分类后替换为真实值
+# repo_id 已填（仓库 node_id）；category_id 已从 giscus.app 生成并填入
 giscus:
   repo: RosyStorm/blog
   repo_id: R_kgDOTEt_hA
-  category_id: DIC_kwDOTEt_hM4CgAAAA
+  category_id: DIC_kwDOTEt_hM4C_3fW
   light_theme: light
   dark_theme: dark
   js:
