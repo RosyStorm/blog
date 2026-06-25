@@ -198,19 +198,20 @@ Web/
 
 以下字段当前用占位值，实现后请用户替换为真实内容（在 `_config.yml` / `_config.butterfly.yml` 中）：
 
-| 字段 | 占位值 | 说明 |
+| 字段 | 值 | 状态 |
 |---|---|---|
-| GitHub 仓库名 | `blog` | 决定 Pages 地址 `https://rosystorm.github.io/blog/` |
-| 站点标题 | 我的博客 | `_config.yml: title` |
-| 站点副标题 | 记录与分享 | `_config.yml: subtitle` |
-| 站点描述 | 一个个人的技术博客 | SEO 用 |
-| 作者昵称 | 博主 | `_config.yml: author` |
-| 关键词 | 博客, 技术 | SEO |
-| 头像 URL | 占位图 | 侧边栏 + 关于页 |
-| 联系邮箱 | （占位） | 关于页 |
-| Giscus 配置 | （部署后填） | repo / repoId / category / categoryId |
-| 公告文案 | 占位 | 侧边栏公告板 |
-| 想说的话 | 占位金句 | 侧边栏 |
+| GitHub 仓库名 | `blog` | ✅ 已确认 |
+| 站点标题 | 颜浩轩的博客 | ✅ 已确认（实现时可改） |
+| 站点副标题 | 记录与分享 | 占位，可改 |
+| 站点描述 | 颜浩轩的个人技术博客 | 占位，SEO 用 |
+| 作者昵称 | 颜浩轩 | ✅ 已确认 |
+| 所属院校 | 清华大学 | ✅ 已确认（关于页） |
+| 关键词 | 博客, 技术, 清华 | 占位，SEO |
+| 头像 URL | 占位图 | 待提供 |
+| 联系邮箱 | 1741426978@qq.com | ✅ 已确认 |
+| Giscus 配置 | repo / repoId / category / categoryId | 仓库就绪后填 |
+| 公告文案 | 占位 | 待提供 |
+| 想说的话 | 占位金句 | 待提供 |
 
 ## 12. 不做范围（YAGNI）
 
