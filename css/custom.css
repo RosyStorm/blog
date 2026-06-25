@@ -1,0 +1,45 @@
+/* ============================================================
+ * Butterfly 主题：页面背景人物（日/夜随暗黑模式切换）
+ * 复用主题自带的 #web_bg 全屏固定背景层
+ * 日间：魔女之旅·伊蕾娜  夜间：崩坏3·朔夜观星（照搬 biojuse 同款）
+ * ============================================================ */
+
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url(/blog/pic/day.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+[data-theme="dark"] #web_bg {
+  background: url(/blog/pic/night.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* 卡片半透明，露出背景人物 */
+#recent-posts .recent-post-item,
+#aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.9);
+}
+[data-theme="dark"] #recent-posts .recent-post-item,
+[data-theme="dark"] #aside-content .card-widget {
+  background: rgba(0, 0, 0, 0.8);
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 移动端背景适配 */
+@media screen and (max-width: 768px) {
+  #web_bg {
+    background-size: cover;
+  }
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>颜浩轩</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://rosystorm.github.io/blog/</id>
+  <link href="https://rosystorm.github.io/blog/" rel="alternate"/>
+  <link href="https://rosystorm.github.io/blog/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 颜浩轩</rights>
+  <subtitle>记录与分享</subtitle>
+  <title>颜浩轩的博客</title>
+  <updated>2026-06-25T11:05:06.297Z</updated>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="软件开发" scheme="https://rosystorm.github.io/blog/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+    <category term="Python" scheme="https://rosystorm.github.io/blog/tags/Python/"/>
+    <category term="Git" scheme="https://rosystorm.github.io/blog/tags/Git/"/>
+    <content>
+      <![CDATA[<p>记录开发中的经验。</p><h2 id="Git-工作流"><a href="#Git-工作流" class="headerlink" title="Git 工作流"></a>Git 工作流</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b feature</span><br><span class="line">git commit -m <span class="string">&quot;feat: ...&quot;</span></span><br></pre></td></tr></table></figure><p>（示例内容）</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/06/01/dev-notes/</id>
+    <link href="https://rosystorm.github.io/blog/2024/06/01/dev-notes/"/>
+    <published>2024-06-01T02:00:00.000Z</published>
+    <summary>开发过程中的一些经验与技巧。</summary>
+    <title>软件开发杂记</title>
+    <updated>2026-06-25T11:05:06.297Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="学习" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="文献阅读" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    <category term="基因组学" scheme="https://rosystorm.github.io/blog/tags/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6/"/>
+    <category term="文献" scheme="https://rosystorm.github.io/blog/tags/%E6%96%87%E7%8C%AE/"/>
+    <content>
+      <![CDATA[<p>记录近期阅读的文献。</p><h2 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h2><ul><li>群体遗传变异模式</li><li>选择信号检测方法</li></ul><p>（示例内容）</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/05/12/paper-notes/</id>
+    <link href="https://rosystorm.github.io/blog/2024/05/12/paper-notes/"/>
+    <published>2024-05-12T02:00:00.000Z</published>
+    <summary>记录近期阅读的基因组学文献要点。</summary>
+    <title>文献阅读笔记：基因组学方向</title>
+    <updated>2026-06-25T11:05:06.297Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="学习" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="绘图" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/%E7%BB%98%E5%9B%BE/"/>
+    <category term="R" scheme="https://rosystorm.github.io/blog/tags/R/"/>
+    <category term="ggplot2" scheme="https://rosystorm.github.io/blog/tags/ggplot2/"/>
+    <category term="可视化" scheme="https://rosystorm.github.io/blog/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    <content>
+      <![CDATA[<p>介绍 ggplot2 绘图技巧。</p><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">library<span class="punctuation">(</span>ggplot2<span class="punctuation">)</span></span><br><span class="line">ggplot<span class="punctuation">(</span>mtcars<span class="punctuation">,</span> aes<span class="punctuation">(</span>mpg<span class="punctuation">,</span> wt<span class="punctuation">)</span><span class="punctuation">)</span> <span class="operator">+</span> geom_point<span class="punctuation">(</span><span class="punctuation">)</span> <span class="operator">+</span> theme_minimal<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure><p>（示例内容）</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/04/05/data-visualization/</id>
+    <link href="https://rosystorm.github.io/blog/2024/04/05/data-visualization/"/>
+    <published>2024-04-05T02:00:00.000Z</published>
+    <summary>用 R 的 ggplot2 绘制出版级图表。</summary>
+    <title>数据可视化技巧</title>
+    <updated>2026-06-25T11:05:06.297Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="学习" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="杂项" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/%E6%9D%82%E9%A1%B9/"/>
+    <category term="linux" scheme="https://rosystorm.github.io/blog/tags/linux/"/>
+    <category term="运维" scheme="https://rosystorm.github.io/blog/tags/%E8%BF%90%E7%BB%B4/"/>
+    <content>
+      <![CDATA[<p>记录日常高频使用的 Linux 命令。</p><h2 id="文件与目录"><a href="#文件与目录" class="headerlink" title="文件与目录"></a>文件与目录</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span> -lah        <span class="comment"># 列出文件</span></span><br><span class="line"><span class="built_in">du</span> -sh *       <span class="comment"># 查看目录大小</span></span><br><span class="line"><span class="built_in">df</span> -h          <span class="comment"># 查看磁盘</span></span><br></pre></td></tr></table></figure><p>（示例内容）</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/03/10/linux-tips/</id>
+    <link href="https://rosystorm.github.io/blog/2024/03/10/linux-tips/"/>
+    <published>2024-03-10T02:00:00.000Z</published>
+    <summary>整理日常高频使用的 Linux 命令。</summary>
+    <title>Linux 常用命令速查</title>
+    <updated>2026-06-25T11:05:06.297Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="学习" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="生信" scheme="https://rosystorm.github.io/blog/categories/%E5%AD%A6%E4%B9%A0/%E7%94%9F%E4%BF%A1/"/>
+    <category term="生物信息学" scheme="https://rosystorm.github.io/blog/tags/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6/"/>
+    <category term="流程" scheme="https://rosystorm.github.io/blog/tags/%E6%B5%81%E7%A8%8B/"/>
+    <content>
+      <![CDATA[<p>本文介绍生物信息学中常见的分析流程。</p><h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><ul><li>序列比对：BWA、Bowtie2</li><li>变异检测：GATK、bcftools</li><li>注释：VEP、ANNOVAR</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bwa mem ref.fa read1.fq read2.fq | samtools <span class="built_in">sort</span> -o out.bam</span><br></pre></td></tr></table></figure><p>（示例内容，后续替换为真实文章）</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/02/15/bioinfo-pipeline/</id>
+    <link href="https://rosystorm.github.io/blog/2024/02/15/bioinfo-pipeline/"/>
+    <published>2024-02-15T02:00:00.000Z</published>
+    <summary>介绍常见的生物信息学分析流程与工具。</summary>
+    <title>生物信息学分析流程入门</title>
+    <updated>2026-06-25T11:05:06.297Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>颜浩轩</name>
+    </author>
+    <category term="博客" scheme="https://rosystorm.github.io/blog/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="公告" scheme="https://rosystorm.github.io/blog/tags/%E5%85%AC%E5%91%8A/"/>
+    <category term="随笔" scheme="https://rosystorm.github.io/blog/tags/%E9%9A%8F%E7%AC%94/"/>
+    <content>
+      <![CDATA[<p>欢迎来到<strong>颜浩轩的博客</strong>！本站基于 Hexo + Butterfly 主题搭建，记录学习与生活。</p><h2 id="本站使用的技术"><a href="#本站使用的技术" class="headerlink" title="本站使用的技术"></a>本站使用的技术</h2><ul><li>生成器：Hexo 6</li><li>主题：Butterfly</li><li>部署：GitHub Pages + GitHub Actions</li></ul><h2 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的新文章&quot;</span></span><br><span class="line">hexo server   <span class="comment"># 本地预览</span></span><br><span class="line">hexo g        <span class="comment"># 生成静态文件</span></span><br></pre></td></tr></table></figure><p>后续会持续更新，敬请期待！</p>]]>
+    </content>
+    <id>https://rosystorm.github.io/blog/2024/01/01/hello-blog/</id>
+    <link href="https://rosystorm.github.io/blog/2024/01/01/hello-blog/"/>
+    <published>2024-01-01T02:00:00.000Z</published>
+    <summary>这是博客的第一篇文章，介绍本站的搭建与规划。</summary>
+    <title>你好，欢迎来到我的博客</title>
+    <updated>2024-01-02T02:00:00.000Z</updated>
+  </entry>
+</feed>

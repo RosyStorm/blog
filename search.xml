@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>生物信息学分析流程入门</title>
+    <url>/blog/2024/02/15/bioinfo-pipeline/</url>
+    <content><![CDATA[<p>本文介绍生物信息学中常见的分析流程。</p>
+<h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><ul>
+<li>序列比对：BWA、Bowtie2</li>
+<li>变异检测：GATK、bcftools</li>
+<li>注释：VEP、ANNOVAR</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">bwa mem ref.fa read1.fq read2.fq | samtools <span class="built_in">sort</span> -o out.bam</span><br></pre></td></tr></table></figure>
+
+<p>（示例内容，后续替换为真实文章）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>生信</category>
+      </categories>
+      <tags>
+        <tag>生物信息学</tag>
+        <tag>流程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据可视化技巧</title>
+    <url>/blog/2024/04/05/data-visualization/</url>
+    <content><![CDATA[<p>介绍 ggplot2 绘图技巧。</p>
+<figure class="highlight r"><table><tr><td class="code"><pre><span class="line">library<span class="punctuation">(</span>ggplot2<span class="punctuation">)</span></span><br><span class="line">ggplot<span class="punctuation">(</span>mtcars<span class="punctuation">,</span> aes<span class="punctuation">(</span>mpg<span class="punctuation">,</span> wt<span class="punctuation">)</span><span class="punctuation">)</span> <span class="operator">+</span> geom_point<span class="punctuation">(</span><span class="punctuation">)</span> <span class="operator">+</span> theme_minimal<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure>
+
+<p>（示例内容）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>绘图</category>
+      </categories>
+      <tags>
+        <tag>R</tag>
+        <tag>ggplot2</tag>
+        <tag>可视化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件开发杂记</title>
+    <url>/blog/2024/06/01/dev-notes/</url>
+    <content><![CDATA[<p>记录开发中的经验。</p>
+<h2 id="Git-工作流"><a href="#Git-工作流" class="headerlink" title="Git 工作流"></a>Git 工作流</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b feature</span><br><span class="line">git commit -m <span class="string">&quot;feat: ...&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>（示例内容）</p>
+]]></content>
+      <categories>
+        <category>软件开发</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 常用命令速查</title>
+    <url>/blog/2024/03/10/linux-tips/</url>
+    <content><![CDATA[<p>记录日常高频使用的 Linux 命令。</p>
+<h2 id="文件与目录"><a href="#文件与目录" class="headerlink" title="文件与目录"></a>文件与目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ls</span> -lah        <span class="comment"># 列出文件</span></span><br><span class="line"><span class="built_in">du</span> -sh *       <span class="comment"># 查看目录大小</span></span><br><span class="line"><span class="built_in">df</span> -h          <span class="comment"># 查看磁盘</span></span><br></pre></td></tr></table></figure>
+
+<p>（示例内容）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文献阅读笔记：基因组学方向</title>
+    <url>/blog/2024/05/12/paper-notes/</url>
+    <content><![CDATA[<p>记录近期阅读的文献。</p>
+<h2 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h2><ul>
+<li>群体遗传变异模式</li>
+<li>选择信号检测方法</li>
+</ul>
+<p>（示例内容）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>文献阅读</category>
+      </categories>
+      <tags>
+        <tag>基因组学</tag>
+        <tag>文献</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>你好，欢迎来到我的博客</title>
+    <url>/blog/2024/01/01/hello-blog/</url>
+    <content><![CDATA[<p>欢迎来到<strong>颜浩轩的博客</strong>！本站基于 Hexo + Butterfly 主题搭建，记录学习与生活。</p>
+<h2 id="本站使用的技术"><a href="#本站使用的技术" class="headerlink" title="本站使用的技术"></a>本站使用的技术</h2><ul>
+<li>生成器：Hexo 6</li>
+<li>主题：Butterfly</li>
+<li>部署：GitHub Pages + GitHub Actions</li>
+</ul>
+<h2 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的新文章&quot;</span></span><br><span class="line">hexo server   <span class="comment"># 本地预览</span></span><br><span class="line">hexo g        <span class="comment"># 生成静态文件</span></span><br></pre></td></tr></table></figure>
+
+<p>后续会持续更新，敬请期待！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>公告</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+</search>
