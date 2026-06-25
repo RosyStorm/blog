@@ -37,7 +37,7 @@ Web/                              ← 项目根目录（你在用的就是这个
 ├── source/                       ★ 所有"内容"都在这里
 │   ├── _posts/                   ★★★ 你的文章都在这里（Markdown .md 文件）
 │   │   ├── hello-blog.md
-│   │   ├── bioinfo-pipeline.md
+│   │   ├── nuclear-intro.md
 │   │   └── ...
 │   ├── about/index.md            关于页
 │   ├── link/index.md             友链页
@@ -105,12 +105,12 @@ npx hexo new "我的第一篇文章"
 ```markdown
 ---
 title: 我的第一篇文章          # 文章标题（必填）
-date: 2024-07-01 10:00:00       # 发布日期（必填）
+date: 2026-06-25 10:00:00       # 发布日期（必填）
 categories:                     # 分类（影响分类页，见第 4 节）
   - 学习
-  - 生信
+  - 核工程
 tags:                           # 标签（影响标签云）
-  - 生物信息学
+  - 核工程学
   - 教程
 cover: https://picsum.photos/seed/my/800/450   # 文章封面图（列表里显示的小图）
 top_img: https://picsum.photos/seed/mytop/1920/600  # 文章顶部大图
@@ -150,14 +150,14 @@ echo "hello"
 ```yaml
 categories:
   - 学习        # 一级分类
-  - 生信        # 二级分类（缩进表示层级）
+  - 核工程        # 二级分类（缩进表示层级）
 ```
-多个层级就继续缩进。这样文章会进入「学习 > 生信」分类树。
+多个层级就继续缩进。这样文章会进入「学习 > 核工程」分类树。
 
 ### 标签（tags）
 ```yaml
 tags:
-  - 生物信息学
+  - 核工程学
   - R
   - ggplot2
 ```
@@ -167,7 +167,7 @@ tags:
 **可以建子文件夹来物理整理**，比如：
 ```
 source/_posts/
-├── 生信/
+├── 核工程/
 │   ├── article-1.md
 │   └── article-2.md
 ├── 杂项/
@@ -176,7 +176,7 @@ source/_posts/
 Hexo 会扫描所有子目录里的 `.md`，都能识别。
 
 但是注意：
-- **文件夹名 ≠ 分类**。即使在 `生信/` 文件夹里，文章的分类仍由 front-matter 的 `categories` 决定。
+- **文件夹名 ≠ 分类**。即使在 `核工程/` 文件夹里，文章的分类仍由 front-matter 的 `categories` 决定。
 - **建议两者结合**：用子文件夹归类整理文件，同时每篇文章 front-matter 里写好 `categories`。
 
 ---
@@ -296,7 +296,7 @@ theme_color:
 git add .
 
 # 3. 提交（写一句话说明改了啥）
-git commit -m "feat: 新增一篇生信文章"
+git commit -m "feat: 新增一篇核工程文章"
 
 # 4. 推送到 GitHub（触发自动部署）
 git push

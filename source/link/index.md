@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-date: 2024-01-01 00:00:00
+date: 2026-06-25 00:00:00
 type: link
 top_img: https://picsum.photos/seed/link/1920/600
 comments: true

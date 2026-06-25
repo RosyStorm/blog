@@ -1,6 +1,6 @@
 ---
 title: 关于
-date: 2024-01-01 00:00:00
+date: 2026-06-25 00:00:00
 type: about
 layout: about
 top_img: https://picsum.photos/seed/about/1920/600
@@ -9,7 +9,7 @@ comments: false
 
 ## 关于博主
 
-我是**颜浩轩**，就读于**清华大学**。这里是我的个人博客，用来记录学习与生活。
+我是**颜浩轩**，就读于**清华大学**，**核工程与核技术**专业。这里是我的个人博客，用来记录学习与生活。
 
 - GitHub：[@RosyStorm](https://github.com/RosyStorm)
 - 邮箱：1741426978@qq.com

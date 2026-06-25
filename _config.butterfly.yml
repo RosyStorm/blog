@@ -81,7 +81,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 清华大学 · 保持热爱，奔赴山海
+    description: 清华大学 · 核工程与核技术
     button:
       enable: true
       icon: fab fa-github
@@ -118,7 +118,7 @@ aside:
     enable: true
     post_count: true
     last_push_date: true
-    runtime_date: 2024/01/01 00:00:00
+    runtime_date: 2026/06/25 00:00:00
 
 # ---------- 封面 ----------
 cover:
