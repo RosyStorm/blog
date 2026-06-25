@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>生物信息学分析流程入门</title>
-    <url>/blog/2024/02/15/bioinfo-pipeline/</url>
-    <content><![CDATA[<p>本文介绍生物信息学中常见的分析流程。</p>
-<h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><ul>
-<li>序列比对：BWA、Bowtie2</li>
-<li>变异检测：GATK、bcftools</li>
-<li>注释：VEP、ANNOVAR</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">bwa mem ref.fa read1.fq read2.fq | samtools <span class="built_in">sort</span> -o out.bam</span><br></pre></td></tr></table></figure>
-
-<p>（示例内容，后续替换为真实文章）</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-        <category>生信</category>
-      </categories>
-      <tags>
-        <tag>生物信息学</tag>
-        <tag>流程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据可视化技巧</title>
-    <url>/blog/2024/04/05/data-visualization/</url>
+    <url>/blog/2026/06/28/data-visualization/</url>
     <content><![CDATA[<p>介绍 ggplot2 绘图技巧。</p>
 <figure class="highlight r"><table><tr><td class="code"><pre><span class="line">library<span class="punctuation">(</span>ggplot2<span class="punctuation">)</span></span><br><span class="line">ggplot<span class="punctuation">(</span>mtcars<span class="punctuation">,</span> aes<span class="punctuation">(</span>mpg<span class="punctuation">,</span> wt<span class="punctuation">)</span><span class="punctuation">)</span> <span class="operator">+</span> geom_point<span class="punctuation">(</span><span class="punctuation">)</span> <span class="operator">+</span> theme_minimal<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure>
 
@@ -42,7 +20,7 @@
   </entry>
   <entry>
     <title>软件开发杂记</title>
-    <url>/blog/2024/06/01/dev-notes/</url>
+    <url>/blog/2026/06/30/dev-notes/</url>
     <content><![CDATA[<p>记录开发中的经验。</p>
 <h2 id="Git-工作流"><a href="#Git-工作流" class="headerlink" title="Git 工作流"></a>Git 工作流</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git checkout -b feature</span><br><span class="line">git commit -m <span class="string">&quot;feat: ...&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -58,7 +36,7 @@
   </entry>
   <entry>
     <title>你好，欢迎来到我的博客</title>
-    <url>/blog/2024/01/01/hello-blog/</url>
+    <url>/blog/2026/06/25/hello-blog/</url>
     <content><![CDATA[<p>欢迎来到<strong>颜浩轩的博客</strong>！本站基于 Hexo + Butterfly 主题搭建，记录学习与生活。</p>
 <h2 id="本站使用的技术"><a href="#本站使用的技术" class="headerlink" title="本站使用的技术"></a>本站使用的技术</h2><ul>
 <li>生成器：Hexo 6</li>
@@ -79,7 +57,7 @@
   </entry>
   <entry>
     <title>Linux 常用命令速查</title>
-    <url>/blog/2024/03/10/linux-tips/</url>
+    <url>/blog/2026/06/27/linux-tips/</url>
     <content><![CDATA[<p>记录日常高频使用的 Linux 命令。</p>
 <h2 id="文件与目录"><a href="#文件与目录" class="headerlink" title="文件与目录"></a>文件与目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ls</span> -lah        <span class="comment"># 列出文件</span></span><br><span class="line"><span class="built_in">du</span> -sh *       <span class="comment"># 查看目录大小</span></span><br><span class="line"><span class="built_in">df</span> -h          <span class="comment"># 查看磁盘</span></span><br></pre></td></tr></table></figure>
 
@@ -95,8 +73,33 @@
       </tags>
   </entry>
   <entry>
+    <title>核工程与核技术入门</title>
+    <url>/blog/2026/06/26/nuclear-intro/</url>
+    <content><![CDATA[<p>本文介绍<strong>核工程与核技术</strong>领域的基础知识，作为本专业学习笔记的开篇。</p>
+<h2 id="主要研究方向"><a href="#主要研究方向" class="headerlink" title="主要研究方向"></a>主要研究方向</h2><ul>
+<li><strong>反应堆物理</strong>：中子输运理论、临界计算、反应性控制</li>
+<li><strong>核燃料循环</strong>：铀浓缩、燃料元件制造、乏燃料后处理</li>
+<li><strong>辐射防护与剂量学</strong>：屏蔽设计、辐射监测、生物效应</li>
+<li><strong>核安全</strong>：事故分析、严重事故管理、概率安全评价（PSA）</li>
+</ul>
+<h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 蒙特卡洛中子输运计算（MCNP/OpenMC 等）典型流程示例</span></span><br><span class="line">openmc -s 8          <span class="comment"># 8 进程并行</span></span><br><span class="line">openmc_plot_tally.h5 <span class="comment"># 查看计数结果</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="典型代码"><a href="#典型代码" class="headerlink" title="典型代码"></a>典型代码</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 简单的放射性衰变计算示例</span></span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line">N0 = <span class="number">1000</span>          <span class="comment"># 初始原子数</span></span><br><span class="line">half_life = <span class="number">5730</span>   <span class="comment"># 半衰期（年，碳-14）</span></span><br><span class="line">t = <span class="number">10000</span>          <span class="comment"># 经过时间</span></span><br><span class="line">N = N0 * math.exp(-<span class="number">0.693</span> * t / half_life)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;剩余原子数: <span class="subst">&#123;N:<span class="number">.1</span>f&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>（示例内容，后续将替换为真实的学习笔记。）</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>核工程</category>
+      </categories>
+      <tags>
+        <tag>核工程</tag>
+        <tag>核技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>文献阅读笔记：基因组学方向</title>
-    <url>/blog/2024/05/12/paper-notes/</url>
+    <url>/blog/2026/06/29/paper-notes/</url>
     <content><![CDATA[<p>记录近期阅读的文献。</p>
 <h2 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h2><ul>
 <li>群体遗传变异模式</li>
