@@ -57,6 +57,27 @@
       </tags>
   </entry>
   <entry>
+    <title>你好，欢迎来到我的博客</title>
+    <url>/blog/2024/01/01/hello-blog/</url>
+    <content><![CDATA[<p>欢迎来到<strong>颜浩轩的博客</strong>！本站基于 Hexo + Butterfly 主题搭建，记录学习与生活。</p>
+<h2 id="本站使用的技术"><a href="#本站使用的技术" class="headerlink" title="本站使用的技术"></a>本站使用的技术</h2><ul>
+<li>生成器：Hexo 6</li>
+<li>主题：Butterfly</li>
+<li>部署：GitHub Pages + GitHub Actions</li>
+</ul>
+<h2 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的新文章&quot;</span></span><br><span class="line">hexo server   <span class="comment"># 本地预览</span></span><br><span class="line">hexo g        <span class="comment"># 生成静态文件</span></span><br></pre></td></tr></table></figure>
+
+<p>后续会持续更新，敬请期待！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>公告</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux 常用命令速查</title>
     <url>/blog/2024/03/10/linux-tips/</url>
     <content><![CDATA[<p>记录日常高频使用的 Linux 命令。</p>
@@ -90,27 +111,6 @@
       <tags>
         <tag>基因组学</tag>
         <tag>文献</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>你好，欢迎来到我的博客</title>
-    <url>/blog/2024/01/01/hello-blog/</url>
-    <content><![CDATA[<p>欢迎来到<strong>颜浩轩的博客</strong>！本站基于 Hexo + Butterfly 主题搭建，记录学习与生活。</p>
-<h2 id="本站使用的技术"><a href="#本站使用的技术" class="headerlink" title="本站使用的技术"></a>本站使用的技术</h2><ul>
-<li>生成器：Hexo 6</li>
-<li>主题：Butterfly</li>
-<li>部署：GitHub Pages + GitHub Actions</li>
-</ul>
-<h2 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的新文章&quot;</span></span><br><span class="line">hexo server   <span class="comment"># 本地预览</span></span><br><span class="line">hexo g        <span class="comment"># 生成静态文件</span></span><br></pre></td></tr></table></figure>
-
-<p>后续会持续更新，敬请期待！</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>公告</tag>
-        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
