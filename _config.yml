@@ -1,0 +1,96 @@
+# Hexo 站点配置
+title: 颜浩轩的博客
+subtitle: 记录与分享
+description: 颜浩轩的个人技术博客
+keywords: 博客,技术,清华,生信
+author: 颜浩轩
+language: zh-CN
+timezone: Asia/Shanghai
+
+# 网址（子路径部署，root 必须带首尾斜杠）
+url: https://rosystorm.github.io/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+  lang: zh-cn
+
+# 目录
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 写作
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+
+# 分类与标签
+default_category: uncategorized
+category_map:
+tag_map:
+
+# 日期/时间格式
+metadata:
+  author_id: default
+  language: ''
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# 分页
+per_page: 10
+pagination_dir: page
+
+# 主题
+theme: butterfly
+
+# 部署（本地 hexo d 备用；正式上线用 GitHub Actions）
+deploy:
+  type: git
+  repo: https://github.com/RosyStorm/blog.git
+  branch: gh-pages
+
+# 本地搜索（hexo-generator-searchdb）
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+  limit: 10000
+
+# Swiper 首页置顶轮播（hexo-butterfly-swiper）
+swiper:
+  enable: true
+  priority: 5
+  enable_page: /
+  timemode: date
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  error_img: /img/default.png
+  insertposition: afterbegin
+  default_descr: 这是一篇示例文章，后续将替换为真实内容。
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js
+
+# 包含/排除
+include:
+exclude:
+ignore:
