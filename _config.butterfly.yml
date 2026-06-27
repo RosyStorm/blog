@@ -135,6 +135,18 @@ default_top_img: https://picsum.photos/seed/topimg/1920/1080
 index_img: https://picsum.photos/seed/indextop/1920/600
 disable_top_img: false
 
+# ---------- 首页副标题（打字机效果）----------
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+  source: false
+  sub:
+    - 欢迎来到颜浩轩的博客
+    - 清华大学 · 核工程与核技术
+    - 人生是旷野，不是轨道
+    - 保持批判思维，先思考后行动
+
 # ---------- 头像 ----------
 avatar:
   img: https://avatars.githubusercontent.com/u/185143493?v=4
