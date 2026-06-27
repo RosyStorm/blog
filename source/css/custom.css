@@ -41,6 +41,21 @@ body,
   background: rgba(0, 0, 0, 0.3) !important;
 }
 
+/* 归档 / 分类 / 标签页：列表项与总览面板半透明，保证文字在背景图上可读 */
+.article-sort-item,
+.article-sort-title,
+.category-lists,
+.tag-cloud-list {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(2px);
+}
+[data-theme="dark"] .article-sort-item,
+[data-theme="dark"] .article-sort-title,
+[data-theme="dark"] .category-lists,
+[data-theme="dark"] .tag-cloud-list {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
 #page-header {
   background: transparent !important;
 }
