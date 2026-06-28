@@ -212,6 +212,8 @@ busuanzi:
 inject:
   head:
     - <link rel="stylesheet" href="/blog/css/custom.css">
+    # KaTeX 数学公式样式（服务端渲染，仅需 CSS；本地内置，不依赖 CDN）
+    - <link rel="stylesheet" href="/blog/lib/katex/katex.min.css">
   bottom:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css">
 

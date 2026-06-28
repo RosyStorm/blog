@@ -11,6 +11,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@traptitech/markdown-it-katex": "^3.6.0",
     "hexo": "^6.3.0",
     "hexo-butterfly-swiper": "^1.0.12",
     "hexo-deployer-git": "^4.0.0",
@@ -20,11 +21,12 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.3.3",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "katex": "^0.17.0"
   }
 }
